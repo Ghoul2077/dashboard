@@ -4,8 +4,6 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import App from './App';
 import Navbar from './components/navbar';
-import 'jquery/dist/jquery.min.js'
-import 'bootstrap/dist/js/bootstrap.min.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.css';
 

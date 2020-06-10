@@ -54,15 +54,15 @@ class Navbar extends Component {
             <>
                 {
                     this.state.headings.map(heading => {
-                        return <Dropdown key={heading.id} changePage={() => this.changePage(heading.id)} menu={heading} />
+                        return <Dropdown key={heading.id} changePage={this.changePage} menu={heading} />
                     })
                 }
             </>
         );
     }
 
-    changePage = menuID => {
-        console.log("Gotta Change the Page");
+    changePage = selection => {
+        console.log(selection);
     }
 
 }

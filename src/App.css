@@ -5,12 +5,11 @@
 #sidebar{
   position: relative;
   top: 0;
-  height: 100vh;
+  min-height: 100vh;
   color: white;
 }
 
 .row{
-  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -59,10 +58,6 @@ nav{
   display: block;
 }
 
-.sidebar-wrapper{
-  height: 100%;
-}
-
 .sidebar .nav li{
   background-color: black;
   border-bottom: 1px solid white;
@@ -86,4 +81,13 @@ nav{
    float: right;
    font-size: 1.1em;
    margin-top: 3px;
+}
+
+div[id*='#submenu']{
+  transition: opacity 0.5s ease-in-out;
+}
+
+.sidebar .nav ul a{
+  border-left: 15px solid #343a40;
+  padding: 15px 50px;
 }

@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+.wrapper{
+  align-items: stretch;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#sidebar{
+  position: relative;
+  top: 0;
+  height: 100vh;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.row{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  width: 260px;
+  background: #fff;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav{
+  width: 100%;
+}
+
+.fa{
+  color: white;
+}
+
+.fa-arrow-left{
+  float: right;
+  font-size: 1.2em;
+}
+
+.dismiss{
+  padding: 10px 10px;
+  margin-bottom: 15px;
+}
+
+.sidebar .logo {
+  padding: 0px 0px;
+  margin: 0;
+  margin-bottom: 35px;
+  display: block;
+  position: relative;
+  z-index: 4;
+  text-align: center;
+}
+
+.profile-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.sidebar .nav {
+  display: block;
+}
+
+.sidebar-wrapper{
+  height: 100%;
+}
+
+.sidebar .nav li{
+  background-color: black;
+  border-bottom: 1px solid white;
+}
+
+.selected{
+  margin-left: 20px;
+}
+
+.sidebar .nav li a{
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-left: 50px;
+}
+
+.sidebar .nav li .fa-arrow-down{
+   float: right;
+   font-size: 1.1em;
+   margin-top: 3px;
 }

@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 class Dropdown extends Component {
     state = {
         style : {
-            display: 'none',
+            display: 'none'
         },
         toggle : 'off'
     }

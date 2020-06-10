@@ -87,6 +87,10 @@ div[id*='#submenu']{
   transition: opacity 0.5s ease-in-out;
 }
 
+div[id*='#submenu'] ul{
+  padding-left: 0px !important;;
+}
+
 .sidebar .nav ul a{
   border-left: 15px solid #343a40;
   padding: 15px 50px;

@@ -1,3 +1,32 @@
+.container-fluid{
+  display: flex;
+  flex-direction: row;
+  padding-right: 0px !important;
+}
+
+#navbar-wrapper{
+  position: relative;
+}
+
+#main{
+  position: relative;
+  width: 100%;
+  background: #ecf0f1;
+}
+
+#navbar{
+  position: relative;
+}
+
+.navbar-brand{
+  color: black !important;
+  font-weight: lighter;
+}
+
+#dashboard-content{
+  padding: 20px;
+}
+
 .wrapper{
   align-items: stretch;
 }
@@ -17,6 +46,8 @@
   width: 260px;
   background: #fff;
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  margin-right: 0px !important;
+  height: 100%;
 }
 
 nav{

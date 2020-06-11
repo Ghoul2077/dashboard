@@ -5,11 +5,11 @@ import userPlaceholder from "../images/user.png";
 class Sidebar extends Component {
     state = {
         headings: [
-            { id: 1 , value: {'Dashboard' : ["a","b"]} },
-            { id: 2 , value: 'Report Tables'},
-            { id: 3 , value: 'Profile' },
-            { id: 4 , value: 'Settings Password' },
-            { id: 5 , value: 'Tasks' } ],
+            { id: 1 , value: {'Dashboard' : ["a","b"], icon : 'fa-tachometer'} },
+            { id: 2 , value: ['Report Tables',  'fa-file-text']},
+            { id: 3 , value: ['Profile', 'fa-user' ]},
+            { id: 4 , value: ['Settings Password', 'fa-key']},
+            { id: 5 , value: ['Tasks', 'fa-tasks'] } ],
         userImg: "",
         useName: ""
     }

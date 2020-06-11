@@ -58,6 +58,10 @@ nav{
   color: white;
 }
 
+.fa-common{
+  margin-right: 15px;
+}
+
 .fa-arrow-left{
   float: right;
   font-size: 1.2em;
@@ -105,7 +109,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  padding-left: 50px;
+  padding-left: 25px;
 }
 
 .sidebar .nav li .fa-arrow-down{
